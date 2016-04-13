@@ -1,0 +1,60 @@
+
+
+  Cross-Page Tests
+    1) requesting a group rate quote from the hood river tour pageshould populate the referrer field
+    2) requesting a group rate from the oregon coast tour page should populate the referrer field
+    3) visiting the "request group rate" page directly should result in an empty referrer field
+
+
+  0 passing (3s)
+  3 failing
+
+  1) Cross-Page Tests requesting a group rate quote from the hood river tour pageshould populate the referrer field:
+     Uncaught AssertionError: No link matching '.requestGroupRate'
+      at Browser.clickLink (C:\apps\NodeAndExpress\site\node_modules\zombie\lib\index.js:692:7)
+      at C:\apps\NodeAndExpress\site\qa\tests-crosspage.js:16:21
+      at Browser.done (C:\apps\NodeAndExpress\site\node_modules\zombie\lib\eventloop.js:589:11)
+      at C:\apps\NodeAndExpress\site\node_modules\zombie\lib\document.js:811:15
+      at C:\apps\NodeAndExpress\site\node_modules\zombie\lib\eventloop.js:377:27
+      at tryCatcher (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\util.js:16:23)
+      at Promise._settlePromiseFromHandler (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:502:31)
+      at Promise._settlePromise (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:559:18)
+      at Promise._settlePromise0 (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:604:10)
+      at Promise._settlePromises (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:679:18)
+      at Async._drainQueue (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\async.js:138:16)
+      at Async._drainQueues (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\async.js:148:10)
+      at Immediate.Async.drainQueues [as _onImmediate] (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\async.js:17:14)
+
+  2) Cross-Page Tests requesting a group rate from the oregon coast tour page should populate the referrer field:
+     Uncaught AssertionError: No link matching '.requestGroupRate'
+      at Browser.clickLink (C:\apps\NodeAndExpress\site\node_modules\zombie\lib\index.js:692:7)
+      at C:\apps\NodeAndExpress\site\qa\tests-crosspage.js:28:21
+      at Browser.done (C:\apps\NodeAndExpress\site\node_modules\zombie\lib\eventloop.js:589:11)
+      at C:\apps\NodeAndExpress\site\node_modules\zombie\lib\document.js:811:15
+      at C:\apps\NodeAndExpress\site\node_modules\zombie\lib\eventloop.js:377:27
+      at tryCatcher (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\util.js:16:23)
+      at Promise._settlePromiseFromHandler (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:502:31)
+      at Promise._settlePromise (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:559:18)
+      at Promise._settlePromise0 (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:604:10)
+      at Promise._settlePromises (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:679:18)
+      at Async._drainQueue (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\async.js:138:16)
+      at Async._drainQueues (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\async.js:148:10)
+      at Immediate.Async.drainQueues [as _onImmediate] (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\async.js:17:14)
+
+  3) Cross-Page Tests visiting the "request group rate" page directly should result in an empty referrer field:
+     Uncaught TypeError: Cannot read property 'value' of null
+      at C:\apps\NodeAndExpress\site\qa\tests-crosspage.js:40:49
+      at Browser.done (C:\apps\NodeAndExpress\site\node_modules\zombie\lib\eventloop.js:589:11)
+      at C:\apps\NodeAndExpress\site\node_modules\zombie\lib\document.js:811:15
+      at C:\apps\NodeAndExpress\site\node_modules\zombie\lib\eventloop.js:377:27
+      at tryCatcher (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\util.js:16:23)
+      at Promise._settlePromiseFromHandler (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:502:31)
+      at Promise._settlePromise (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:559:18)
+      at Promise._settlePromise0 (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:604:10)
+      at Promise._settlePromises (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\promise.js:679:18)
+      at Async._drainQueue (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\async.js:138:16)
+      at Async._drainQueues (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\async.js:148:10)
+      at Immediate.Async.drainQueues [as _onImmediate] (C:\apps\NodeAndExpress\site\node_modules\zombie\node_modules\bluebird\js\release\async.js:17:14)
+
+
+
